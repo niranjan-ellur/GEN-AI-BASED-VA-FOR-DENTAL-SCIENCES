@@ -64,7 +64,7 @@ async def main_async():
     # Process single PDF file named 'pdfs.pdf' from the current directory
     pdf_file = 'pdfs.pdf'
 
-    with st.spinner("Getting ready to respond for the questoins"):
+    with st.spinner("Getting ready"):
         raw_text = get_pdf_text(pdf_file)
         text_chunks = get_text_chunks(raw_text)
         get_vector_store(text_chunks)
