@@ -7,13 +7,13 @@ Objectives:
 
 
 
-Enhance Access to Dental Knowledge: Provide users with easy access to expert-level dental information using AI-based systems.
+1) Enhance Access to Dental Knowledge: Provide users with easy access to expert-level dental information using AI-based systems.
 
-Facilitate Interactive Learning: Enable users to ask specific questions about dental health and receive detailed, relevant answers.
+2) Facilitate Interactive Learning: Enable users to ask specific questions about dental health and receive detailed, relevant answers.
 
-Utilize Generative AI for Contextual Answers: Employ state-of-the-art AI models for embedding creation, similarity search, and conversational responses.
+3) Utilize Generative AI for Contextual Answers: Employ state-of-the-art AI models for embedding creation, similarity search, and conversational responses.
 
-Streamline Query Processing: Integrate FAQs and a user-friendly interface for efficient information retrieval.
+4) Streamline Query Processing: Integrate FAQs and a user-friendly interface for efficient information retrieval.
 
 
 
@@ -21,17 +21,17 @@ Streamline Query Processing: Integrate FAQs and a user-friendly interface for ef
 
 Features:
 
-PDF Text Extraction: Automatically extracts text from a provided PDF file.
+1) PDF Text Extraction: Automatically extracts text from a provided PDF file.
 
-Text Chunking: Splits extracted text into manageable chunks for processing.
+2) Text Chunking: Splits extracted text into manageable chunks for processing.
 
-Vector Store Creation: Creates a FAISS-based vector store for efficient similarity search.
+3) Vector Store Creation: Creates a FAISS-based vector store for efficient similarity search.
 
-Conversational Chain: Uses a custom prompt template to provide accurate and contextual answers to dental-related questions.
+4) Conversational Chain: Uses a custom prompt template to provide accurate and contextual answers to dental-related questions.
 
-FAQ Handling: Includes a predefined set of frequently asked questions for quick responses.
+5) FAQ Handling: Includes a predefined set of frequently asked questions for quick responses.
 
-User Interaction: Allows users to input custom questions and get responses.
+6) User Interaction: Allows users to input custom questions and get responses.
 
 
 
@@ -41,14 +41,14 @@ User Interaction: Allows users to input custom questions and get responses.
 
 Technologies Used:
 
-Streamlit: For building an interactive web interface.
+1) Streamlit: For building an interactive web interface.
 
-PyPDF2: For reading and extracting text from PDF files.
+2) PyPDF2: For reading and extracting text from PDF files.
 
-LangChain: For handling language model interactions and creating conversational chains.
+3) LangChain: For handling language model interactions and creating conversational chains.
 
-Google Generative AI: For embeddings and chat capabilities.
+4) Google Generative AI: For embeddings and chat capabilities.
 
-FAISS: For efficient vector-based similarity searches.
+5) FAISS: For efficient vector-based similarity searches.
 
-dotenv: For managing environment variables.
+6) dotenv: For managing environment variables.
