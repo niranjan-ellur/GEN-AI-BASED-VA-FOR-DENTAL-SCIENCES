@@ -1,54 +1,78 @@
-Overview:
+# GEN-AI-BASED-VA-FOR-DENTAL-SCIENCES 🦷🤖
 
-The GEN AI-Based Virtual Assistant for Dental Sciences project is a robust and intelligent system designed to provide precise, context-aware answers to dental health-related queries. This project combines advancements in natural language processing (NLP), vector search, and conversational AI to create a tool capable of delivering accurate and contextually relevant responses to both predefined FAQs and custom user questions.
+A virtual assistant powered by Google's Gemini Pro for dental sciences, providing intelligent responses to dental queries using PDF-based knowledge.
 
+## Overview
+This project implements an AI-powered virtual assistant specifically designed for dental sciences. It processes dental literature in PDF format and uses Google's Generative AI to provide accurate, context-aware responses to dental queries.
 
-Objectives:
+## Features
+- PDF document processing and text extraction
+- Advanced text chunking for optimal processing
+- Vector-based semantic search using FAISS
+- Integration with Google's Gemini Pro AI model
+- Pre-loaded FAQ system for common dental queries
+- Custom query handling for specific dental questions
 
+## Tech Stack
+- Streamlit: Web interface
+- LangChain: For AI chain operations
+- Google Generative AI (Gemini Pro): Core AI model
+- FAISS: Vector store for efficient text search
+- PyPDF2: PDF processing
 
+## Installation
 
-1) Enhance Access to Dental Knowledge: Provide users with easy access to expert-level dental information using AI-based systems.
+```bash
+# Clone the repository
+git clone https://github.com/niranjan-ellur/GEN-AI-BASED-VA-FOR-DENTAL-SCIENCES.git
 
-2) Facilitate Interactive Learning: Enable users to ask specific questions about dental health and receive detailed, relevant answers.
+# Navigate to project directory
+cd GEN-AI-BASED-VA-FOR-DENTAL-SCIENCES
 
-3) Utilize Generative AI for Contextual Answers: Employ state-of-the-art AI models for embedding creation, similarity search, and conversational responses.
+# Install required packages
+pip install -r requirements.txt
+```
 
-4) Streamline Query Processing: Integrate FAQs and a user-friendly interface for efficient information retrieval.
+## Configuration
+1. Create a `.env` file in the root directory
+2. Add your Google API key:
+```
+GOOGLE_API_KEY=your_api_key_here
+```
 
+## Usage
+1. Place your dental knowledge base PDF file as 'pdfs.pdf' in the project directory
+2. Run the application:
+```bash
+streamlit run app.py
+```
 
+## Features in Detail
+- **PDF Processing**: Extracts text from dental literature
+- **Text Chunking**: Splits content into manageable segments
+- **Vector Store**: Creates and manages FAISS embeddings
+- **Conversational Chain**: Implements context-aware Q&A system
+- **Pre-loaded FAQs**: Common dental queries ready to use
 
+## Contributing
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Features:
+## Contact
+Niranjan Ellur - [GitHub Profile](https://github.com/niranjan-ellur)
 
-1) PDF Text Extraction: Automatically extracts text from a provided PDF file.
+Project Link: [https://github.com/niranjan-ellur/GEN-AI-BASED-VA-FOR-DENTAL-SCIENCES](https://github.com/niranjan-ellur/GEN-AI-BASED-VA-FOR-DENTAL-SCIENCES)
 
-2) Text Chunking: Splits extracted text into manageable chunks for processing.
+## Acknowledgments
+- Google Generative AI team for Gemini Pro
+- LangChain community
+- FAISS developers
 
-3) Vector Store Creation: Creates a FAISS-based vector store for efficient similarity search.
-
-4) Conversational Chain: Uses a custom prompt template to provide accurate and contextual answers to dental-related questions.
-
-5) FAQ Handling: Includes a predefined set of frequently asked questions for quick responses.
-
-6) User Interaction: Allows users to input custom questions and get responses.
-
-
-
-
-
-
-
-Technologies Used:
-
-1) Streamlit: For building an interactive web interface.
-
-2) PyPDF2: For reading and extracting text from PDF files.
-
-3) LangChain: For handling language model interactions and creating conversational chains.
-
-4) Google Generative AI: For embeddings and chat capabilities.
-
-5) FAISS: For efficient vector-based similarity searches.
-
-6) dotenv: For managing environment variables.
+---
+⭐ Star this repository if you find it helpful!
